@@ -1,0 +1,65 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  header h1 {
+    font-size: 35px;
+  }
+  
+  header h3 {
+    font-size: 15px;
+  }
+ 
+ .menu li, .menu li a {
+  color: #fe9f42;
+  padding-right: 0px;
+  margin-left: 30px;
+ 	display: inline-block;
+ 	color: white;
+  font-weight: bold;
+ }
+
+  section {
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  .team-wrapper {
+	margin-top: 22px;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;    
+   	background-color: rgba(249, 196, 154, 0.5);
+   	text-align: center;
+}
+.btn{
+  text-align: center;
+  width: 80%;
+}
+
+.btn-wrapper p{
+  display: none;
+}
+}
+
+/* Untuk Smartphone */
+  @media screen and (max-width: 513px) {
+.menu li, .menu li a {
+  color: #fe9f42;
+  padding-right: 0px;
+  margin-left: 10px;
+ 	display: inline-block;
+ 	color: white;
+  font-weight: bold;
+}
+.search {
+  float: right;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-left: 20px;
+  width: 15%;
+  height: 20px;
+  border-radius: 2px;
+  border: none;
+  text-indent: 5px;
+  }
+}
